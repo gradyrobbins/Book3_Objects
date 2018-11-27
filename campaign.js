@@ -20,22 +20,21 @@ district.textContent = "Tennessee's 5th congressional district!";
     // Crime and enforcement
 
     const platform = {
-        Taxes: "Lorem Ipsum Tax",
-        Jobs: "Lorem Ipsum Jobbie Job Job",
-        Infrastructure: "Lorem Ipsum Bridges and stuff",
-        Healthcare: "Lorem Ipsum drink water",
-        Crime_and_enforcement: "Lorem Ipsum judge judy",
+        Taxes: "Taxman",
+        Jobs: "Jobbie Job Job",
+        Infrastructure: "Bridges and stuff",
+        Healthcare: "drink water",
+        Crime_and_enforcement: "only Judy can Judge me!",
     };
     
-    let outDiv = document.querySelector("#platform");
+    let outDiv = document.querySelector("#platformlistitem");
     
     for(key in platform){
         x = platform[key];
         console.log(key, " : ", platform[key]);
         
         outDiv.innerHTML += 
-        `<p>  Taxes: ${x.taxes}, Jobs: ${x.Jobs}, Infrastructure: ${x.Infrastructure} 
-         </p>`;
+        `<li>  ${key} : ${platform[key]} </li> `;
     }
 
     

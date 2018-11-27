@@ -6,3 +6,16 @@ img {
     width: 550px;
     border-radius: 15px;
 }
+
+ol {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+li {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+}

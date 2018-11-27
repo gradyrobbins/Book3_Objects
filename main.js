@@ -53,8 +53,4 @@ let bleep = document.getElementById("bleep");
 bleep.textContent += ` ${beatles.members[1].name} was in the Beatles from ${beatles.history.formed} to ${beatles.history.disbanded}. He contributed heavily to the ${beatles.albums[3]} Album.
 `
 
-// grabbing a reference on the DOM to inject content 
-let charlie = document.getElementById("charlie");
-// console.log("campaign" + campaign);
-charlie.textContent += "more info about the campaign";
 

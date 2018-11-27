@@ -38,61 +38,24 @@ district.textContent = "Tennessee's 5th congressional district!";
     }
 
     
-    // let students = [
-        //     {
-//         name: "terrance",
-//         track: "front-end", 
-//         achievements: 12,
-//         points: 6
-//     },
-//     {
-//         name: "juliet", 
-//         track: "back-end",
-//         achievements: 14,
-//         points: 7
-//     },
-//     {
-//         name: "Miller",
-//         track: "full-stack",
-//         achievements: 9,
-//         points: 7
-//     },
-//     {
-//         name: "Johnson", 
-//         track: "full-stack",
-//         achievements: 9,
-//         points: 5
-//     },
-//     {
-//         name: "Smith",
-//         track: "front-end",
-//         achievements: 9,
-//         points: 8
-//     }
-// ]
-// var message = "";
-// var student = "";
+// URL for donation form- can change the href dynamically via JS below:
+document.getElementById("donate_link").href = "https://www.nashville.gov/Election-Commission.aspx";
 
-// let outDiv = document.querySelector("#mine");
-
-// for(key in students){
-//     student=students[key];
-//     console.log(key, " : ", students[key]);
-    
-//     outDiv.innerHTML += 
-//     `<p> ${student.name}, Track: ${student.track}, Acieviments: ${student.achievements}, Points: ${student.points} 
-//      </p>`;
-// }
-
-// URL for donation form
 // Calendar of events
+let calendarEl = document.getElementById("calendar");
+calendarEl.textContent += "Free beer tomorrow";
+
 // Volunteer information
-// Name
-// Address
-// Email
-// Phone number
-// Availability
-// What activities each one is willing to do (e.g. answering phone calls, taking polls, etc.)
+const volunteer = {
+    Name: [],
+    Address:[],
+    Email: [],
+    Phone_number: [],
+    Availability: []
+    // What activities each one is willing to do (e.g. answering phone calls, taking polls, etc.)
+}
+    
+
 // Biography
 // Image gallery
 // Head shot
